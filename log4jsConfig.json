@@ -1,0 +1,17 @@
+{
+  "appenders": [
+    {
+      "type": "jsonfileappender",
+      "filename": "./logs/server.log",
+      "maxLogSize": 5242880,
+      "backups": 5,
+      "category": ["template","template-controller","swagger-mongoose-crud"],
+      "level": "AUDIT,WARN,ERROR"
+    },
+    {
+      "type": "console",
+      "category": ["template","template-controller","swagger-mongoose-crud"],
+      "level": "AUDIT,WARN,ERROR"
+    }
+  ]
+}

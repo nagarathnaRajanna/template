@@ -1,0 +1,27 @@
+{
+	"templateName": "String",
+	"templateDescription": "String",
+	"outputType": enum(),
+	"inputType": enum(),
+	"fieldDefinition": [{
+			"name": {
+				"type": "number",
+				"column": "string"
+			},
+			"type": {
+				"type": "string",
+				"column": "string"
+			}
+		},
+		{
+			"name": {
+				"type": "number",
+				"column": "string"
+			},
+			"type": {
+				"type": "string",
+				"column": "string"
+			}
+		}
+	]
+}
